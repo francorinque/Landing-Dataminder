@@ -14,7 +14,7 @@ const Hero = () => {
   const { slides } = data['section-one'];
 
   return (
-    <section id='home' className='bg-custom-silver pt-[50px]'>
+    <section id='home' className='bg-custom-silver pt-[50px] h-screen'>
       <Swiper
         pagination={true}
         modules={[Autoplay, Pagination]}
@@ -22,7 +22,7 @@ const Hero = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        className='py-[50px] lg:py-[100px]'
+        className='py-[50px] lg:py-[100px] h-full'
       >
         {slides.map((slide) => (
           <SwiperSlide

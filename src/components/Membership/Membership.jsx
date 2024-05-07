@@ -10,7 +10,7 @@ const Membership = () => {
         <h2 className='subtitle mb-2'>{title}</h2>
         <p className='paragraph'>{desc}</p>
       </div>
-      <div className='mt-[50px] grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 lg:justify-between'>
+      <div className='mt-[50px] grid grid-cols-1  gap-10 lg:grid-cols-3 lg:justify-between'>
         {items.map((item) => (
           <MemberShipItem key={item.id} {...item} />
         ))}

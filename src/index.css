@@ -24,7 +24,7 @@ body {
 }
 
 .title {
-  @apply text-[40px] md:text-[60px] font-bold;
+  @apply text-[40px] lg:text-[60px] font-bold;
 }
 
 .subtitle {

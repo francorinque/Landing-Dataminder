@@ -11,7 +11,7 @@ const Footer = () => {
       <div>
         <Logo colorText='text-custom-silver' />
       </div>
-      <nav className='grid grid-flow-col gap-4'>
+      <nav className='flex flex-wrap gap-4 justify-center'>
         {links.map((link) => (
           <CustomLink
             text={link.text}

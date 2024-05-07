@@ -7,7 +7,7 @@ const MenuMobile = ({ isOpen, onClick, data }) => {
     <div
       className={`${
         isOpen ? 'flex' : 'hidden'
-      } bg-black/10 w-full h-screen fixed inset-0 md:hidden`}
+      } bg-black/10 w-full h-screen fixed inset-0 lg:hidden`}
       onClick={onClick}
     >
       <ul

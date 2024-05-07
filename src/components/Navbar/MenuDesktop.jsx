@@ -3,7 +3,7 @@ import CustomLink from '../ui/CustomLink';
 
 const MenuDesktop = ({ data, scrolled }) => {
   return (
-    <nav className='w-full hidden md:flex md:justify-between'>
+    <nav className='w-full hidden lg:flex lg:justify-between'>
       <ul
         className={`
        flex items-center mx-auto gap-2

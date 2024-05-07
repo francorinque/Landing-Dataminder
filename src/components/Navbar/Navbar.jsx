@@ -29,7 +29,7 @@ const Navbar = () => {
       />
       <button
         className={`
-          text-2xl cursor-pointer z-[99] text-custom-neutral flex items-center justify-center md:hidden
+          text-2xl cursor-pointer z-[99] text-custom-neutral flex items-center justify-center lg:hidden
           ${hasScrolled ? 'text-custom-silver' : 'text-custom-neutral'}
           `}
         onClick={handleIsOpen}

@@ -5,7 +5,7 @@ const MemberShipItem = ({ icon, title, desc }) => {
         <img src={icon.url} alt={icon.alt} />
       </div>
       <h3 className='subtitle'>{title}</h3>
-      <p className='paragraph text-center'>{desc}</p>
+      <p className='paragraph text-center max-w-[500px] mx-auto'>{desc}</p>
     </div>
   );
 };
