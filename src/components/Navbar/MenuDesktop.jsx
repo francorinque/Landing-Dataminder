@@ -1,7 +1,7 @@
 import CustomBtn from '../ui/CustomBtn';
 import CustomLink from '../ui/CustomLink';
 
-const MenuDesktop = ({ data }) => {
+const MenuDesktop = ({ data, scrolled }) => {
   return (
     <nav className='w-full hidden md:flex md:justify-between'>
       <ul
@@ -11,7 +11,12 @@ const MenuDesktop = ({ data }) => {
       >
         {data.links.map((link) => (
           <li key={link.id} className='p-2'>
-            <CustomLink {...link} colorText='text-custom-neutral' />
+            <CustomLink
+              {...link}
+              colorText={`
+              ${scrolled ? 'text-custom-silver' : 'text-custom-neutral'}
+              `}
+            />
           </li>
         ))}
       </ul>

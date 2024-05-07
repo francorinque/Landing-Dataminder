@@ -5,7 +5,7 @@ const Membership = () => {
   const { title, desc, items } = data['section-three'];
 
   return (
-    <section className='py-[100px]'>
+    <section className='py-[100px]' id='service'>
       <div className='text-center'>
         <h2 className='subtitle mb-2'>{title}</h2>
         <p className='paragraph'>{desc}</p>

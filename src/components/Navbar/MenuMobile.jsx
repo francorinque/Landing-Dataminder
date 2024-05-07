@@ -12,16 +12,16 @@ const MenuMobile = ({ isOpen, onClick, data }) => {
     >
       <ul
         className={`
-        fixed  left-0 top-0 px-2 py-5 h-screen
-        w-[250px] flex flex-col gap-4  items-start text-white bg-custom-silver shadow-md shadow-black/10
+        fixed  left-0 top-0 p-5 h-screen
+        w-[250px] flex flex-col gap-8 items-start bg-custom-neutral shadow-md shadow-black/10
         `}
       >
         {data.links.map((link) => (
-          <li key={link.id} className='p-2'>
-            <CustomLink {...link} colorText='text-custom-neutral' />
+          <li key={link.id}>
+            <CustomLink {...link} colorText='text-custom-silver' />
           </li>
         ))}
-        <li className='p-2'>
+        <li>
           <CustomBtn className='btn'>
             <CustomLink {...data.button} />
           </CustomBtn>

@@ -18,18 +18,25 @@ const Navbar = () => {
     fixed z-[98] top-0 left-0 w-full
     px-5 flex justify-between items-center  
     h-[78px]  text-white ${
-      hasScrolled ? 'bg-custom-silver shadow-md' : 'bg-transparent'
+      hasScrolled ? 'bg-custom-neutral shadow-md' : 'bg-transparent'
     }
    `}
     >
-      <Logo colorText='text-custom-neutral' />
+      <Logo
+        colorText={`
+        ${hasScrolled ? 'text-custom-silver' : 'text-custom-neutral'}
+        `}
+      />
       <button
-        className='text-2xl cursor-pointer z-[99] text-custom-neutral flex items-center justify-center md:hidden'
+        className={`
+          text-2xl cursor-pointer z-[99] text-custom-neutral flex items-center justify-center md:hidden
+          ${hasScrolled ? 'text-custom-silver' : 'text-custom-neutral'}
+          `}
         onClick={handleIsOpen}
       >
         {isOpen ? <BsXLg /> : <BsJustify />}
       </button>
-      <MenuDesktop data={menuData} />
+      <MenuDesktop data={menuData} scrolled={hasScrolled} />
       <MenuMobile isOpen={isOpen} onClick={handleIsOpen} data={menuData} />
     </header>
   );

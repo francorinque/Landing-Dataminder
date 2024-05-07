@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 100px;
+}
+
 body {
   @apply text-custom-black;
 }

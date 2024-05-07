@@ -7,16 +7,18 @@ import Info from './components/Info/Info';
 import Membership from './components/Membership/Membership';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
+import Stats from './components/Stats/Stats';
 import Layout from './components/ui/Layout';
 
 function App() {
   return (
-    <main className='min-h-screen bg-[#F5F5F5]'>
+    <main className='min-h-screen bg-[#fafafa]'>
       <Navbar />
+      <Hero />
       <Layout maxWidth='max-w-[1440px]'>
-        <Hero />
         <Clients />
         <Membership />
+        <Stats />
         <Blog />
         <Info />
         <Projects />

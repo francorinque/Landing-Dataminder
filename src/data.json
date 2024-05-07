@@ -16,16 +16,16 @@
       },
       {
         "id": 2,
-        "text": "Service",
-        "href": "#service",
-        "title": "service",
+        "text": "Clients",
+        "href": "#clients",
+        "title": "Clients",
         "isExternal": false
       },
       {
         "id": 3,
-        "text": "Feature",
-        "href": "#feature",
-        "title": "feature",
+        "text": "Service",
+        "href": "#service",
+        "title": "Service",
         "isExternal": false
       },
       {
@@ -44,9 +44,9 @@
       },
       {
         "id": 6,
-        "text": "FAQ",
-        "href": "#FAQ",
-        "title": "FAQ",
+        "text": "Projects",
+        "href": "#projects",
+        "title": "Projects",
         "isExternal": false
       }
     ],
@@ -243,5 +243,57 @@
       "title": "Contact",
       "href": "mailto:8q5iO@example.com"
     }
+  },
+  "section-eigth": {
+    "text": {
+      "black": "Helping a local",
+      "green": "business reivent itself"
+    },
+    "desc": "We reached here with our hard work and dedication",
+    "items": [
+      {
+        "id": 1,
+        "number": "2,245,341",
+        "text": "Members",
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715111293/stats-icons/oieo9ett7izskatvesgv.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 2,
+        "number": "46,328",
+        "text": "Clubs",
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715115325/stats-icons/fmee5u8pmev8p9biv05z.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 3,
+        "number": "828,867",
+        "text": "Event Bookings",
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715111294/stats-icons/pmyffwrdamgcdfgr72du.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 4,
+        "number": "1,926,436",
+        "text": "Payments",
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715111294/stats-icons/cskbzqnxna9hlubl33lc.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      }
+    ]
+  },
+  "section-footer": {
+    "text": "All rights reserved."
   }
 }

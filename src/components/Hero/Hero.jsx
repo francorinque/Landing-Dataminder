@@ -14,7 +14,7 @@ const Hero = () => {
   const { slides } = data['section-one'];
 
   return (
-    <>
+    <section id='home' className='bg-custom-silver pt-[50px]'>
       <Swiper
         pagination={true}
         modules={[Autoplay, Pagination]}
@@ -29,7 +29,7 @@ const Hero = () => {
             key={slide.id}
             className='user-select-none cursor-pointer'
           >
-            <div className='flex  flex-col gap-[40px] md:flex-row md:items-center md:justify-between '>
+            <div className='flex  flex-col gap-[40px] md:flex-row md:items-center md:justify-around '>
               {/* text */}
               <div className='flex flex-col gap-4 text-center lg:text-left '>
                 <h1 className='title text-balance max-w-[600px]'>
@@ -42,13 +42,13 @@ const Hero = () => {
               <img
                 src={slide.img.url}
                 alt={slide.img.alt}
-                className='object-contain max-h-400px] '
+                className='object-contain max-h-400px] aspect-square'
               />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </section>
   );
 };
 export default Hero;
