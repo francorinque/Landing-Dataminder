@@ -48,6 +48,13 @@
         "href": "#projects",
         "title": "Projects",
         "isExternal": false
+      },
+      {
+        "id": 7,
+        "text": "Blog",
+        "href": "exampleblog.com",
+        "title": "Blog",
+        "isExternal": true
       }
     ],
     "button": {
