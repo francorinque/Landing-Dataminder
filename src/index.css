@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply text-custom-black;
+}
+
+.btn {
+  @apply bg-custom-green  border-none text-custom-silver min-w-[120px];
+}
+
+.title {
+  @apply text-[40px] md:text-[60px] font-bold;
+}
+
+.subtitle {
+  @apply text-[25px] md:text-[30px] font-semibold text-center max-w-[500px] mx-auto;
+}
+
+.paragraph {
+  @apply text-[14px] text-custom-grey my-2;
+}
+
+.radius {
+  @apply rounded-md;
+}

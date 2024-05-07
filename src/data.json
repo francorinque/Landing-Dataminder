@@ -1,0 +1,247 @@
+{
+  "logo": {
+    "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715095021/ivsmclgfd3uf1qwpo0f3.svg",
+    "alt": "logo webpage",
+    "title": "logo webpage",
+    "text": "Nexcent"
+  },
+  "section-nav": {
+    "links": [
+      {
+        "id": 1,
+        "text": "Home",
+        "href": "#home",
+        "title": "home",
+        "isExternal": false
+      },
+      {
+        "id": 2,
+        "text": "Service",
+        "href": "#service",
+        "title": "service",
+        "isExternal": false
+      },
+      {
+        "id": 3,
+        "text": "Feature",
+        "href": "#feature",
+        "title": "feature",
+        "isExternal": false
+      },
+      {
+        "id": 4,
+        "text": "Product",
+        "href": "#product",
+        "title": "Product",
+        "isExternal": false
+      },
+      {
+        "id": 5,
+        "text": "Testimonial",
+        "href": "#testimonial",
+        "title": "Testimonial",
+        "isExternal": false
+      },
+      {
+        "id": 6,
+        "text": "FAQ",
+        "href": "#FAQ",
+        "title": "FAQ",
+        "isExternal": false
+      }
+    ],
+    "button": {
+      "text": "Contact",
+      "title": "Contact",
+      "href": "mailto:8q5iO@example.com"
+    }
+  },
+  "section-one": {
+    "slides": [
+      {
+        "id": 1,
+        "text": {
+          "black": "Lessons and insights",
+          "green": "from 8 years"
+        },
+        "desc": "Where to grow your business as a photographer: site or social media?",
+        "img": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715093957/hero-section/aga9uudzix9hdszyqix3.svg",
+          "alt": "men view desktop",
+          "title": "men view desktop"
+        }
+      },
+      {
+        "id": 2,
+        "text": {
+          "black": "Lessons and insights",
+          "green": "from 8 years"
+        },
+        "desc": "Where to grow your business as a photographer: site or social media?",
+        "img": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715093957/hero-section/aga9uudzix9hdszyqix3.svg",
+          "alt": "men view desktop",
+          "title": "men view desktop"
+        }
+      },
+      {
+        "id": 3,
+        "text": {
+          "black": "Lessons and insights",
+          "green": "from 8 years"
+        },
+        "desc": "Where to grow your business as a photographer: site or social media?",
+        "img": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715093957/hero-section/aga9uudzix9hdszyqix3.svg",
+          "alt": "men view desktop",
+          "title": "men view desktop"
+        }
+      }
+    ]
+  },
+  "section-two": {
+    "title": "Our Clients",
+    "desc": "We have been working with some Fortune 500+ clients",
+    "items": [
+      {
+        "id": 1,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094064/Responsive%20Landing%20Page%20Design%20_%20Website%20Home%20Page%20Design%20_%20Agency%20Website%20UI%20Design%20%28Community%29/bsvv5xk5ot010dsqyvcs.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 2,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094062/Responsive%20Landing%20Page%20Design%20_%20Website%20Home%20Page%20Design%20_%20Agency%20Website%20UI%20Design%20%28Community%29/lbudfrzzkvcnz5pbbizd.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 3,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094063/Responsive%20Landing%20Page%20Design%20_%20Website%20Home%20Page%20Design%20_%20Agency%20Website%20UI%20Design%20%28Community%29/wzx5ywt4abqgw4z3jueb.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 3,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094063/Responsive%20Landing%20Page%20Design%20_%20Website%20Home%20Page%20Design%20_%20Agency%20Website%20UI%20Design%20%28Community%29/kfrbt5oo5pvckc9dotfh.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 4,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094063/Responsive%20Landing%20Page%20Design%20_%20Website%20Home%20Page%20Design%20_%20Agency%20Website%20UI%20Design%20%28Community%29/getylz49ugvtyvzo5yew.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 5,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094063/Responsive%20Landing%20Page%20Design%20_%20Website%20Home%20Page%20Design%20_%20Agency%20Website%20UI%20Design%20%28Community%29/jkw2afsgr2znbsxwxvke.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      },
+      {
+        "id": 6,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094062/Responsive%20Landing%20Page%20Design%20_%20Website%20Home%20Page%20Design%20_%20Agency%20Website%20UI%20Design%20%28Community%29/becg3l25f80ciduqdczn.svg",
+          "alt": "alt of icon",
+          "title": "title of icon"
+        }
+      }
+    ]
+  },
+  "section-three": {
+    "title": "Manage your entire community in a single system",
+    "desc": "Who is Nextcent suitable for?",
+    "items": [
+      {
+        "id": 1,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094280/memberships-icons/uj4vithqpk9xlobmupms.svg",
+          "title": "title icon"
+        },
+        "title": "Membership Organisations",
+        "desc": "Our membership management software provides full automation of membership renewals and payments"
+      },
+      {
+        "id": 2,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094280/memberships-icons/mjxigdyddlcznxqf1czn.svg",
+          "title": "title icon"
+        },
+        "title": "National Associations",
+        "desc": "Our membership management software provides full automation of membership renewals and payments"
+      },
+      {
+        "id": 3,
+        "icon": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715094280/memberships-icons/yxqhzirn8xur8bjkhirr.svg",
+          "title": "title icon"
+        },
+        "title": "Clubs And Groups",
+        "desc": "Our membership management software provides full automation of membership renewals and payments"
+      }
+    ]
+  },
+  "section-four": {
+    "title": "The unseen of spending three years at Pixelgrade",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.",
+    "btn": {
+      "text": "Read More",
+      "title": "Read More",
+      "href": "example.com"
+    }
+  },
+  "section-five": {
+    "text": "Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.",
+    "name": "Tim Smith",
+    "desc": "British Dragon Boat Racing Association",
+    "img": {
+      "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715105734/pqx6hcbxqcopedxxyoz6.jpg",
+      "alt": "alt of img",
+      "title": "title of img"
+    }
+  },
+  "section-six": {
+    "title": "Projects",
+    "projects": [
+      {
+        "id": 1,
+        "img": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715106632/projects/z3hqj5118srqqmehjjgi.jpg",
+          "alt": "alt img",
+          "title": "title img"
+        },
+        "title": "Creating Streamlined Safeguarding Processes with OneRen"
+      },
+      {
+        "id": 2,
+        "img": {
+          "url": "https://res.cloudinary.com/dnlagz3wg/image/upload/v1715106645/projects/mkjrxhj1sxzwdczucjhl.jpg",
+          "alt": "alt img",
+          "title": "title img"
+        },
+        "title": "Creating Streamlined Safeguarding Processes with OneRen"
+      }
+    ]
+  },
+  "section-seven": {
+    "title": "Contact",
+    "btn": {
+      "text": "Contact",
+      "title": "Contact",
+      "href": "mailto:8q5iO@example.com"
+    }
+  }
+}
